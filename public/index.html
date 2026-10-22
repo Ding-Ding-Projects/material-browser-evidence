@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eight reviewed Material Browser interface captures with source-bound provenance and clear verification limits.">
+  <title>Material Browser evidence</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./">Material Browser evidence</a><nav aria-label="Main navigation"><a href="./">Gallery</a><a href="evidence.html">How to read this evidence</a><a href="https://github.com/Ding-Ding-Projects/material-browser">Source project</a></nav></header>
+<main>
+  <section class="intro" aria-labelledby="page-title">
+    <p class="eyebrow">Reviewed desktop captures · 22 October 2026</p>
+    <h1 id="page-title">Material Browser, in real workflows</h1>
+    <p>Eight original captures from a closed run show profile management, setup, settings, synchronization, consent, and revision history. Each image is linked to its source revision and includes the viewport, theme, language, runtime scale, and SHA-256.</p>
+    <p lang="zh-Hant">八張原始畫面記錄已完成流程：設定檔管理、初始設定、偏好設定、同步、確認視窗及版本記錄。每張圖片都列出來源版本、畫面大小、主題、語言、執行時縮放及 SHA-256。</p>
+    <div class="callout"><strong>Scope:</strong> This is runtime-forced scale and CDP viewport evidence. It does not prove physical display scaling, native keyboard input, installer behavior, or every product state.</div>
+  </section>
+  <section class="filters" aria-labelledby="filter-title">
+    <h2 id="filter-title">Explore the captures</h2>
+    <div class="filter-row">
+      <label>Workflow <select id="surface-filter"><option value="">All workflows</option></select></label>
+      <label>Theme <select id="theme-filter"><option value="">All themes</option></select></label>
+      <label>Language <select id="language-filter"><option value="">All languages</option></select></label>
+      <button id="clear-filters" type="button">Clear filters</button>
+    </div>
+    <p id="result-count" aria-live="polite"></p>
+  </section>
+  <section id="gallery" class="gallery" aria-label="Reviewed interface captures"></section>
+  <section class="method"><h2>What this set covers</h2><p>The images were selected from a normally closed run. The UI was inspected in the original PNG bytes, and synthetic records were used. Metadata identifies the exact source pre-dew, built package, renderer, and host. Captures with obscuring notifications were excluded.</p><a class="button-link" href="evidence.html">Read the evidence method and limits</a></section>
+</main>
+<footer><p>Evidence is a record of the listed states, not a claim that unlisted workflows passed.</p></footer>
+<script src="gallery.js" defer></script>
+</body>
+</html>
