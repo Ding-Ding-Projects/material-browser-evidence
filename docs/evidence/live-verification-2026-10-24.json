@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "verifiedAtUtc": "2026-10-24T01:01:19.634Z",
+  "galleryUrl": "https://ding-ding-projects.github.io/material-browser-evidence/",
+  "galleryCommit": "8cf723d90b7c640e03ae6c7e13889638e8d76bdf",
+  "pagesRunUrl": "https://github.com/Ding-Ding-Projects/material-browser-evidence/actions/runs/40047745432",
+  "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+  "route": "HTTPS readback against staged bytes",
+  "records": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "89c9d89414dd7a3b04681502a1f4271526c5594286c5231a71527dcf3439c8d7"
+    },
+    {
+      "path": "evidence.html",
+      "status": 200,
+      "sha256": "c919107c248e0843d3e26e7e39822189bcd10681ebd0dcd1e2a962579ae5fd25"
+    },
+    {
+      "path": "gallery.js",
+      "status": 200,
+      "sha256": "04af969c28c5d8f78ebcf42e8ca4069a84fcaf623cfec477c73bc4975fb3304d"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "sha256": "dd6ce8e5f9dc8f04cce62c3e4d8893b175330b1aacd21068fd592118d0c49d1e"
+    },
+    {
+      "path": "evidence.json",
+      "status": 200,
+      "sha256": "b559a8ee71a48b0a2e89390092230986992caf3932661b24aedd358961d3a2b5"
+    },
+    {
+      "path": "worldlens-inventory.json",
+      "status": 200,
+      "sha256": "d1dc11277e2f8cc7a0f15239bba9486a7093426adbdd34c0f9822d4c1828eb5d"
+    },
+    {
+      "path": "worldlens-coverage.json",
+      "status": 200,
+      "sha256": "70d17eebf203e8bab109b69fe25b5e8cae634369de8f2f9176027d51c008a617"
+    },
+    {
+      "path": "worldlens-provenance.json",
+      "status": 200,
+      "sha256": "9224f22a36c88018a57967b98fcbb92d683a45ea04229a1013d95b07efa78aa1"
+    },
+    {
+      "path": "worldlens-runtime-summary.json",
+      "status": 200,
+      "sha256": "980c6b13b14d1296020cc6de0a6b8092f987d7754bee160a39673e16c6491ba3"
+    },
+    {
+      "path": "archive/2026-10-22/",
+      "status": 200,
+      "sha256": "bf4ffdb9e3a6fcea377bed9bcd532957bbd16f3e1a80e0633c15253141cdb609"
+    },
+    {
+      "path": "archive/2026-10-22/evidence.html",
+      "status": 200,
+      "sha256": "c2a7dd5bcb750b4ebfa52219556150abb1ef9169ca951f7d919fb6114fe36290"
+    },
+    {
+      "path": "archive/2026-10-22/evidence.json",
+      "status": 200,
+      "sha256": "efea09b53163bb42cd5127792a6acf4c072173588a714f3c87cabd81a8e28de3"
+    },
+    {
+      "path": "archive/2026-10-22/gallery.js",
+      "status": 200,
+      "sha256": "6c704138f2e64cb1beb8af5e96b90cd4150bf544dc97715d59a275a9fa76a4c0"
+    },
+    {
+      "path": "archive/2026-10-22/styles.css",
+      "status": 200,
+      "sha256": "faff224d6d8e916ba14f59215dae283af6ab7b48118488905deb8b092affb513"
+    },
+    {
+      "path": "images/worldlens/profile-overview.png",
+      "status": 200,
+      "sha256": "f0cd418acd9bf02ecb07703ef8caa39d90983d72823b1d8f243394c4438c1110"
+    },
+    {
+      "path": "images/worldlens/super-metadata-result.png",
+      "status": 200,
+      "sha256": "3e3259c39797fdcbca1ede72801d06fab8af0a4ce2d65c9c4537ad7c71a86a77"
+    },
+    {
+      "path": "images/worldlens/synchronization.png",
+      "status": 200,
+      "sha256": "1c31485d7f29058d2eca76232053b8fc7ad601f286c918a5d5a4af830773b4df"
+    },
+    {
+      "path": "images/worldlens/setup-fresh.png",
+      "status": 200,
+      "sha256": "1322b836b52f53001248a5f3061e50d0c69a182eb68b52091570489c3ebf5658"
+    },
+    {
+      "path": "images/worldlens/launch-review.png",
+      "status": 200,
+      "sha256": "cb43f4da41792f11fe7991ffdf6b5a7904a822bcae820d2f1cd97a5a16ff2109"
+    },
+    {
+      "path": "images/worldlens/settings-notifications.png",
+      "status": 200,
+      "sha256": "e71ba5bf9995272bbc704414a2d8d1685700604a0932c0cbf751892b099c0f05"
+    },
+    {
+      "path": "images/worldlens/settings-notifications-lower.png",
+      "status": 200,
+      "sha256": "7c763dbe0a7313d3fb7542312bc2592fd2ee461ae628cae36455b833a5a5d734"
+    },
+    {
+      "path": "images/worldlens/appearance-light.png",
+      "status": 200,
+      "sha256": "62e4a3889805f4bb00456739697a790b7ac0f2ba4c1f9ca5df12071513300e4d"
+    },
+    {
+      "path": "images/worldlens/appearance-contrast.png",
+      "status": 200,
+      "sha256": "948c022baa9ca4af165686a49ef11a02627535c3796995df56e42a2952ae376a"
+    },
+    {
+      "path": "images/worldlens/minimum-bilingual-dark.png",
+      "status": 200,
+      "sha256": "00437d253d62757b296212aed76f090673a0ef7b5dc4c463cd9f7993dc78e619"
+    },
+    {
+      "path": "images/profiles-workspace.png",
+      "status": 200,
+      "sha256": "5a02aa577a49989ef631d8c58a2e3e06ab8a1be8c4571001d008579bcf3e35b9"
+    },
+    {
+      "path": "archive/2026-10-22/images/profiles-workspace.png",
+      "status": 200,
+      "sha256": "5a02aa577a49989ef631d8c58a2e3e06ab8a1be8c4571001d008579bcf3e35b9"
+    },
+    {
+      "path": "images/settings-normal.png",
+      "status": 200,
+      "sha256": "8bbc51770204293b5ab1c9f157956babd726c295022ad6a5ed510630dc1cf1b9"
+    },
+    {
+      "path": "archive/2026-10-22/images/settings-normal.png",
+      "status": 200,
+      "sha256": "8bbc51770204293b5ab1c9f157956babd726c295022ad6a5ed510630dc1cf1b9"
+    },
+    {
+      "path": "images/settings-minimum.png",
+      "status": 200,
+      "sha256": "48e825f489d2c4511e48c5fafca58273be552956c16b88fa256cbb9024b67b34"
+    },
+    {
+      "path": "archive/2026-10-22/images/settings-minimum.png",
+      "status": 200,
+      "sha256": "48e825f489d2c4511e48c5fafca58273be552956c16b88fa256cbb9024b67b34"
+    },
+    {
+      "path": "images/super-profiles.png",
+      "status": 200,
+      "sha256": "260b5064d24679b775f524722af74f9e3cc89304077963ecc4d6f52d6eff227f"
+    },
+    {
+      "path": "archive/2026-10-22/images/super-profiles.png",
+      "status": 200,
+      "sha256": "260b5064d24679b775f524722af74f9e3cc89304077963ecc4d6f52d6eff227f"
+    },
+    {
+      "path": "images/synchronization.png",
+      "status": 200,
+      "sha256": "38dd10e90938a517c6a39496bc848c588f82fc2c020d0906bc34ce10d5f731c9"
+    },
+    {
+      "path": "archive/2026-10-22/images/synchronization.png",
+      "status": 200,
+      "sha256": "38dd10e90938a517c6a39496bc848c588f82fc2c020d0906bc34ce10d5f731c9"
+    },
+    {
+      "path": "images/setup.png",
+      "status": 200,
+      "sha256": "56bd348b441df5e9746be71c82c8be0a37996d3b351d6a5f05a0dcc10a859635"
+    },
+    {
+      "path": "archive/2026-10-22/images/setup.png",
+      "status": 200,
+      "sha256": "56bd348b441df5e9746be71c82c8be0a37996d3b351d6a5f05a0dcc10a859635"
+    },
+    {
+      "path": "images/launch-consent.png",
+      "status": 200,
+      "sha256": "ac807b25eb7fd56da6cb5b620cac6db6d3cae13c9ca57fa99173adb0d1d98daa"
+    },
+    {
+      "path": "archive/2026-10-22/images/launch-consent.png",
+      "status": 200,
+      "sha256": "ac807b25eb7fd56da6cb5b620cac6db6d3cae13c9ca57fa99173adb0d1d98daa"
+    },
+    {
+      "path": "images/revisions.png",
+      "status": 200,
+      "sha256": "2e03cb0cc8d9d22520fc447037ca34b68458613355c0e2554b71c42a197aa00e"
+    },
+    {
+      "path": "archive/2026-10-22/images/revisions.png",
+      "status": 200,
+      "sha256": "2e03cb0cc8d9d22520fc447037ca34b68458613355c0e2554b71c42a197aa00e"
+    }
+  ],
+  "browserChecks": {
+    "base": "https://ding-ding-projects.github.io/material-browser-evidence/",
+    "route": "isolated-headless-chromium",
+    "viewports": [
+      {
+        "width": 1280,
+        "route": "",
+        "client": 1280,
+        "scroll": 1280
+      },
+      {
+        "width": 1280,
+        "route": "evidence.html",
+        "client": 1280,
+        "scroll": 1280
+      },
+      {
+        "width": 760,
+        "route": "",
+        "client": 760,
+        "scroll": 760
+      },
+      {
+        "width": 760,
+        "route": "evidence.html",
+        "client": 760,
+        "scroll": 760
+      },
+      {
+        "width": 320,
+        "route": "",
+        "client": 320,
+        "scroll": 320
+      },
+      {
+        "width": 320,
+        "route": "evidence.html",
+        "client": 320,
+        "scroll": 320
+      }
+    ],
+    "images": [
+      {
+        "file": "images/worldlens/profile-overview.png",
+        "status": 200,
+        "sha256": "f0cd418acd9bf02ecb07703ef8caa39d90983d72823b1d8f243394c4438c1110"
+      },
+      {
+        "file": "images/worldlens/super-metadata-result.png",
+        "status": 200,
+        "sha256": "3e3259c39797fdcbca1ede72801d06fab8af0a4ce2d65c9c4537ad7c71a86a77"
+      },
+      {
+        "file": "images/worldlens/synchronization.png",
+        "status": 200,
+        "sha256": "1c31485d7f29058d2eca76232053b8fc7ad601f286c918a5d5a4af830773b4df"
+      },
+      {
+        "file": "images/worldlens/setup-fresh.png",
+        "status": 200,
+        "sha256": "1322b836b52f53001248a5f3061e50d0c69a182eb68b52091570489c3ebf5658"
+      },
+      {
+        "file": "images/worldlens/launch-review.png",
+        "status": 200,
+        "sha256": "cb43f4da41792f11fe7991ffdf6b5a7904a822bcae820d2f1cd97a5a16ff2109"
+      },
+      {
+        "file": "images/worldlens/settings-notifications.png",
+        "status": 200,
+        "sha256": "e71ba5bf9995272bbc704414a2d8d1685700604a0932c0cbf751892b099c0f05"
+      },
+      {
+        "file": "images/worldlens/settings-notifications-lower.png",
+        "status": 200,
+        "sha256": "7c763dbe0a7313d3fb7542312bc2592fd2ee461ae628cae36455b833a5a5d734"
+      },
+      {
+        "file": "images/worldlens/appearance-light.png",
+        "status": 200,
+        "sha256": "62e4a3889805f4bb00456739697a790b7ac0f2ba4c1f9ca5df12071513300e4d"
+      },
+      {
+        "file": "images/worldlens/appearance-contrast.png",
+        "status": 200,
+        "sha256": "948c022baa9ca4af165686a49ef11a02627535c3796995df56e42a2952ae376a"
+      },
+      {
+        "file": "images/worldlens/minimum-bilingual-dark.png",
+        "status": 200,
+        "sha256": "00437d253d62757b296212aed76f090673a0ef7b5dc4c463cd9f7993dc78e619"
+      }
+    ],
+    "filters": [
+      {
+        "key": "theme",
+        "value": "dark",
+        "count": 8
+      },
+      {
+        "key": "theme",
+        "value": "light",
+        "count": 1
+      },
+      {
+        "key": "theme",
+        "value": "contrast",
+        "count": 1
+      },
+      {
+        "key": "surface",
+        "value": "profiles",
+        "count": 1
+      },
+      {
+        "key": "surface",
+        "value": "super-profiles",
+        "count": 1
+      },
+      {
+        "key": "surface",
+        "value": "synchronization",
+        "count": 1
+      },
+      {
+        "key": "surface",
+        "value": "setup",
+        "count": 1
+      },
+      {
+        "key": "surface",
+        "value": "launch-consent",
+        "count": 1
+      },
+      {
+        "key": "surface",
+        "value": "settings",
+        "count": 5
+      },
+      {
+        "key": "language",
+        "value": "en",
+        "count": 9
+      },
+      {
+        "key": "language",
+        "value": "both",
+        "count": 1
+      }
+    ],
+    "errors": [],
+    "keyboardDisclosure": true
+  },
+  "repositoryReadback": {
+    "galleryHomepage": "https://ding-ding-projects.github.io/material-browser-evidence/",
+    "sourceReadmeCommit": "5cdfee13c0df7c0c6c9e1b5da6b6f28cacab21d7",
+    "sourceReadmeContainsExactGalleryUrl": true
+  },
+  "windowsBuildEntrypoint": "build.bat completed in the linked Pages build job",
+  "limits": [
+    "Gallery verification does not expand product runtime acceptance.",
+    "Linux product capture, Windows native persistence and audible output limits remain as recorded in the product evidence."
+  ]
+}
