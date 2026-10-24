@@ -1,200 +1,353 @@
 {
-  "galleryTitle": "Material Browser reviewed interface evidence",
+  "galleryTitle": "Material Browser WorldLens desktop evidence",
   "sourceRepository": "https://github.com/Ding-Ding-Projects/material-browser",
-  "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-  "runClosed": true,
-  "captureMethod": "Isolated desktop application with CDP-planned capture. Viewport values are CSS pixels; runtime scale is explicitly forced.",
-  "limitations": [
-    "The 200% scale run was not started.",
-    "The closed 150% run has 42 metadata-valid matrix cells but its images were not individually reviewed for this gallery.",
-    "The initial 125% run had 48 notification-obscured variants and is excluded from this gallery.",
-    "Physical host display scaling and native keyboard delivery were not verified.",
-    "The selected images cover representative workflows, not every product state."
-  ],
+  "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+  "captureMethod": "electron-playwright-xvfb",
+  "summaryLimitations": "Linux unpackaged capture. Windows installation, native preference restart persistence, physical display scale and audible speaker output are not verified.",
+  "sourceInventorySha256": "d1dc11277e2f8cc7a0f15239bba9486a7093426adbdd34c0f9822d4c1828eb5d",
+  "sourceCoverageSha256": "70d17eebf203e8bab109b69fe25b5e8cae634369de8f2f9176027d51c008a617",
+  "sourceProvenanceSha256": "9224f22a36c88018a57967b98fcbb92d683a45ea04229a1013d95b07efa78aa1",
+  "sourceRuntimeSummarySha256": "980c6b13b14d1296020cc6de0a6b8092f987d7754bee160a39673e16c6491ba3",
   "images": [
     {
-      "id": "profiles-workspace",
-      "file": "images/profiles-workspace.png",
-      "title": "populated table and selected profile overview",
+      "id": "profile-overview",
+      "file": "images/worldlens/profile-overview.png",
       "surface": "profiles",
+      "title": "Profile table and selected overview",
+      "alt": "Synthetic profile table and selected profile inspector in the dark desktop workspace",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
       "language": "en",
-      "theme": "light",
-      "viewport": {
+      "capturedAtUtc": "2026-10-24T00:37:18.349Z",
+      "imageSha256": "f0cd418acd9bf02ecb07703ef8caa39d90983d72823b1d8f243394c4438c1110",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
         "width": 1280,
         "height": 800,
-        "scale": 1
+        "devicePixelRatio": 1
       },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Profile table and selected profile overview with synthetic records",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "5a02aa577a49989ef631d8c58a2e3e06ab8a1be8c4571001d008579bcf3e35b9",
-      "capturedAtUtc": "2026-10-22T18:55:08.642Z",
-      "startedAtUtc": "2026-10-22T18:55:08.579Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "43fbc46ac946299de58194138c126429bde18479ff2e99600ed2772587ddb054",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
     },
     {
-      "id": "settings-normal",
-      "file": "images/settings-normal.png",
-      "title": "compact language controls",
-      "surface": "settings",
-      "language": "en",
-      "theme": "light",
-      "viewport": {
-        "width": 1258,
-        "height": 718,
-        "scale": 1
-      },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Compact settings rows in the packaged desktop application",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "8bbc51770204293b5ab1c9f157956babd726c295022ad6a5ed510630dc1cf1b9",
-      "capturedAtUtc": "2026-10-22T18:52:02.19Z",
-      "startedAtUtc": "2026-10-22T18:52:02.144Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
-    },
-    {
-      "id": "settings-minimum",
-      "file": "images/settings-minimum.png",
-      "title": "collapsed category navigation at minimum viewport",
-      "surface": "settings",
-      "language": "en",
-      "theme": "light",
-      "viewport": {
-        "width": 760,
-        "height": 580,
-        "scale": 1
-      },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Compact settings navigation at the minimum supported viewport",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "48e825f489d2c4511e48c5fafca58273be552956c16b88fa256cbb9024b67b34",
-      "capturedAtUtc": "2026-10-22T18:52:33.466Z",
-      "startedAtUtc": "2026-10-22T18:52:33.435Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
-    },
-    {
-      "id": "super-profiles",
-      "file": "images/super-profiles.png",
-      "title": "synthetic template inventory before selection",
+      "id": "super-metadata-result",
+      "file": "images/worldlens/super-metadata-result.png",
       "surface": "super-profiles",
+      "title": "Saved template overview",
+      "alt": "Saved synthetic Super Profile template with its selected overview",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
       "language": "en",
-      "theme": "light",
-      "viewport": {
+      "capturedAtUtc": "2026-10-24T00:38:43.661Z",
+      "imageSha256": "3e3259c39797fdcbca1ede72801d06fab8af0a4ce2d65c9c4537ad7c71a86a77",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
         "width": 1280,
         "height": 800,
-        "scale": 1
+        "devicePixelRatio": 1
       },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Super Profile template inventory with synthetic records",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "260b5064d24679b775f524722af74f9e3cc89304077963ecc4d6f52d6eff227f",
-      "capturedAtUtc": "2026-10-22T18:55:22.969Z",
-      "startedAtUtc": "2026-10-22T18:55:22.931Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "8520a2ba5bcadbcd5a8909bf629a28565231ed2361b104539e2ac14ff7d02c85",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
     },
     {
       "id": "synchronization",
-      "file": "images/synchronization.png",
-      "title": "unconfigured folder and no conflicts",
+      "file": "images/worldlens/synchronization.png",
       "surface": "synchronization",
+      "title": "Synchronization before folder selection",
+      "alt": "Synchronization with no folder configured and no conflicts",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
       "language": "en",
-      "theme": "light",
-      "viewport": {
+      "capturedAtUtc": "2026-10-24T00:38:55.356Z",
+      "imageSha256": "1c31485d7f29058d2eca76232053b8fc7ad601f286c918a5d5a4af830773b4df",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
         "width": 1280,
         "height": 800,
-        "scale": 1
+        "devicePixelRatio": 1
       },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Synchronization workspace before a shared folder is configured",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "38dd10e90938a517c6a39496bc848c588f82fc2c020d0906bc34ce10d5f731c9",
-      "capturedAtUtc": "2026-10-22T18:55:29.886Z",
-      "startedAtUtc": "2026-10-22T18:55:29.843Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "469e886003e41295fa9d840e72869f6d296041ac525aff4ddd7f0751a3e61872",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
     },
     {
-      "id": "setup",
-      "file": "images/setup.png",
-      "title": "first setup step with existing unlocked synthetic vault",
+      "id": "setup-fresh",
+      "file": "images/worldlens/setup-fresh.png",
       "surface": "setup",
+      "title": "Initial encrypted-vault setup",
+      "alt": "Initial setup before an encrypted vault is created",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
       "language": "en",
+      "capturedAtUtc": "2026-10-24T00:36:59.006Z",
+      "imageSha256": "1322b836b52f53001248a5f3061e50d0c69a182eb68b52091570489c3ebf5658",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
+        "width": 1280,
+        "height": 800,
+        "devicePixelRatio": 1
+      },
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "55132e3a31472e2e45a10dd03fcee765bfd404a87102ff52d91c38e4d4a7e22a",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
+    },
+    {
+      "id": "launch-review",
+      "file": "images/worldlens/launch-review.png",
+      "surface": "launch-consent",
+      "title": "Standard identity launch review",
+      "alt": "Standard browser identity consent before launch, opened and cancelled",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
+      "language": "en",
+      "capturedAtUtc": "2026-10-24T00:37:22.578Z",
+      "imageSha256": "cb43f4da41792f11fe7991ffdf6b5a7904a822bcae820d2f1cd97a5a16ff2109",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
+        "width": 1280,
+        "height": 800,
+        "devicePixelRatio": 1
+      },
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "5160f3cc788bf9c74953db1d0661254a8cdcdc32921d19cce8846c17293a59ae",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
+    },
+    {
+      "id": "settings-notifications",
+      "file": "images/worldlens/settings-notifications.png",
+      "surface": "settings",
+      "title": "Action sound controls",
+      "alt": "Notification settings showing the action sound switch and volume",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
+      "language": "en",
+      "capturedAtUtc": "2026-10-24T00:37:57.263Z",
+      "imageSha256": "e71ba5bf9995272bbc704414a2d8d1685700604a0932c0cbf751892b099c0f05",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
+        "width": 1280,
+        "height": 800,
+        "devicePixelRatio": 1
+      },
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "6ac6d690c2e08d50a6a3530da868c35f5110a6cd857f349af9d4aef740304c5b",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
+    },
+    {
+      "id": "settings-notifications-lower",
+      "file": "images/worldlens/settings-notifications-lower.png",
+      "surface": "settings",
+      "title": "Sound preview and quiet behavior",
+      "alt": "Action sound preview with quiet and accessibility explanation",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "dark",
+      "language": "en",
+      "capturedAtUtc": "2026-10-24T00:38:13.528Z",
+      "imageSha256": "7c763dbe0a7313d3fb7542312bc2592fd2ee461ae628cae36455b833a5a5d734",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "cssViewport": {
+        "width": 1280,
+        "height": 800,
+        "devicePixelRatio": 1
+      },
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "3d8ddbb083aafd495287c7b08cefe0148936f74ff1294f63db963f36026eb6ee",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
+    },
+    {
+      "id": "appearance-light",
+      "file": "images/worldlens/appearance-light.png",
+      "surface": "settings",
+      "title": "Light appearance and bundled font",
+      "alt": "Light appearance controls with bundled Roboto available",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
       "theme": "light",
-      "viewport": {
-        "width": 1258,
-        "height": 718,
-        "scale": 1
+      "language": "en",
+      "capturedAtUtc": "2026-10-24T00:39:03.054Z",
+      "imageSha256": "62e4a3889805f4bb00456739697a790b7ac0f2ba4c1f9ca5df12071513300e4d",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
       },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Setup wizard with an existing unlocked synthetic vault",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "56bd348b441df5e9746be71c82c8be0a37996d3b351d6a5f05a0dcc10a859635",
-      "capturedAtUtc": "2026-10-22T18:54:38.974Z",
-      "startedAtUtc": "2026-10-22T18:54:38.946Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+      "cssViewport": {
+        "width": 1280,
+        "height": 800,
+        "devicePixelRatio": 1
+      },
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "0f39b1fe3842f19199cf5b97539870c768f97a1a42c4bd20861b94fe5835f413",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
     },
     {
-      "id": "launch-consent",
-      "file": "images/launch-consent.png",
-      "title": "per-launch standard identity consent",
-      "surface": "profiles",
+      "id": "appearance-contrast",
+      "file": "images/worldlens/appearance-contrast.png",
+      "surface": "settings",
+      "title": "High-contrast appearance",
+      "alt": "High-contrast appearance controls with clear outlines",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
+      "theme": "contrast",
       "language": "en",
-      "theme": "dark",
-      "viewport": {
-        "width": 1258,
-        "height": 718,
-        "scale": 1
+      "capturedAtUtc": "2026-10-24T00:39:30.572Z",
+      "imageSha256": "948c022baa9ca4af165686a49ef11a02627535c3796995df56e42a2952ae376a",
+      "windowSize": {
+        "width": 1280,
+        "height": 800
       },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Explicit standard browser identity consent before profile launch",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "ac807b25eb7fd56da6cb5b620cac6db6d3cae13c9ca57fa99173adb0d1d98daa",
-      "capturedAtUtc": "2026-10-22T18:59:21.169Z",
-      "startedAtUtc": "2026-10-22T18:59:21.132Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+      "cssViewport": {
+        "width": 1280,
+        "height": 800,
+        "devicePixelRatio": 1
+      },
+      "imageDimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "zoomFactor": 1,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "1b1c9c0529962f6b24f9455c6311cb2529f8424526472638d4b97ac6a320ef32",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
     },
     {
-      "id": "revisions",
-      "file": "images/revisions.png",
-      "title": "real snapshot and restore history after normal browser stop",
-      "surface": "profiles",
-      "language": "en",
+      "id": "minimum-bilingual-dark",
+      "file": "images/worldlens/minimum-bilingual-dark.png",
+      "surface": "settings",
+      "title": "Bilingual appearance at 200% zoom",
+      "alt": "Bilingual dark appearance in a 760 by 580 window at 200 percent Electron interface zoom",
+      "sourceCommit": "284fc88f94487a7716099469daadeec258d97b07",
       "theme": "dark",
-      "viewport": {
-        "width": 1258,
-        "height": 718,
-        "scale": 1
+      "language": "both",
+      "capturedAtUtc": "2026-10-24T00:44:36.900Z",
+      "imageSha256": "00437d253d62757b296212aed76f090673a0ef7b5dc4c463cd9f7993dc78e619",
+      "windowSize": {
+        "width": 760,
+        "height": 580
       },
-      "scale": 1,
-      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
-      "alt": "Profile revision history after a real snapshot and restore",
-      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
-      "imageSha256": "2e03cb0cc8d9d22520fc447037ca34b68458613355c0e2554b71c42a197aa00e",
-      "capturedAtUtc": "2026-10-22T19:00:25.359Z",
-      "startedAtUtc": "2026-10-22T19:00:25.279Z",
-      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
-      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
-      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+      "cssViewport": {
+        "width": 380,
+        "height": 290,
+        "devicePixelRatio": 2
+      },
+      "imageDimensions": {
+        "width": 760,
+        "height": 580
+      },
+      "zoomFactor": 2,
+      "artifactLabel": "Built production renderer and Linux host; unpackaged Electron capture",
+      "artifactSha256": "0c7f9e4020c5e32ef66b48fc4a9e342affa182b1959ef42108d172566c1ba690",
+      "rendererSha256": "f88287d6babc25737a664dc209bcaab6e87bebecda670b395afb926e67601f04",
+      "hostSha256": "e97e5e1f0484dd09605cad42dae818e310e6897ba59524cae61753e0736d9685",
+      "receiptSha256": "357a9b7a198a2a88890ba98b2b021c0e5322b7dcfc576663d825348ebe0bba69",
+      "captureRoute": "electron-playwright-xvfb",
+      "scaleMethod": "Actual Electron setZoomFactor; measured CSS viewport and window content bounds are separate. Physical display scale was not verified.",
+      "limitations": "Unpackaged Linux Electron and Linux Rust host; no Windows installation or update proof. Native preference saving requires the existing Windows mutex implementation and was not bypassed. Language and theme variants use explicitly seeded startup presentation preferences, not verified native saves. No physical display scaling, native Windows keyboard, screen-reader speech, audible speaker output, or guest lifecycle acceptance."
     }
   ]
 }

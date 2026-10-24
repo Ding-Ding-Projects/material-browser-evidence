@@ -1,7 +1,11 @@
 # Handoff
 
-The public gallery is implemented in `public/` and is built through the root `build.bat`. Its selected evidence is limited to eight visually inspected images from source revision `baa9512ecbc2727929547059f3b5d95f7cde989f`. The page states that physical display scaling, native keyboard delivery, installer behavior, and unlisted states remain unverified.
+The current gallery refresh targets ten inspected WorldLens-style desktop images from product source `284fc88f94487a7716099469daadeec258d97b07`. It distinguishes the unpackaged Linux capture route, real Electron zoom, measured CSS viewport, window content bounds and build provenance. Historical evidence is preserved in `public/archive/2026-10-22/`; original `public/images/` paths remain intact.
 
-Verified on 2026-10-22: the live index at `https://ding-ding-projects.github.io/material-browser-evidence/` and all eight image URLs returned HTTP 200, and every live image SHA-256 matched `public/evidence.json`, the local `public/images` copy and the source repository's `docs/evidence/desktop/gui-rewrite` bytes. The source README links to this gallery home page as of source commit `7035f1c047d2a29eb3081e292a9ef778e2bdc9a4`, read back from the remote main reference.
+Status: all ten source originals and all four sanitized evidence records are staged and byte-verified. A Linux static-copy equivalent build was served to an isolated headless Chromium browser. All ten current images and the eight-image historical gallery loaded; eleven filter cases and clear-filter focus return passed. Both current pages had no horizontal overflow at 1280, 760 and 320 px widths. No browser page errors were observed. A narrow evidence-guide overflow from the inline source hash was corrected with wrapping and the same viewport checks passed again. Local verification is recorded in `docs/evidence/verification-2026-10-24.json`.
 
-Remaining work: read back the repository homepage value with an authenticated GitHub CLI session and run `build.bat` on a Windows host to confirm the local site build still matches `public/`. The gallery content itself is unchanged.
+Publication is pending confirmation that the product source is on its main branch. No refreshed live-site result is claimed yet.
+
+The Windows entrypoint remains `build.bat`. A Linux static-copy validation must be recorded as such, without claiming that batch entrypoint or a Windows installer ran.
+
+The previous 22 October live verification, source backlink and homepage readback are preserved verbatim in `docs/archive/2026-10-22/`. They do not verify this refresh. Publication and live hash verification remain pending.

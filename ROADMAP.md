@@ -1,8 +1,9 @@
-# Roadmap
+# Publication status
 
-## Publication
+- [x] Preserve the earlier gallery, inventory, original images and verification record unchanged.
+- [x] Prepare current pages and a geometry-aware metadata adapter for the WorldLens-style desktop evidence.
+- [x] Stage the ten inspected source originals and exact inventory, coverage and provenance files.
+- [x] Verify hashes, built static pages, filters and internal routes.
+- [ ] Publish and verify every live image hash and current gallery content.
 
-- [x] Publish the eight reviewed original captures with source-bound hashes and UTC provenance.
-- [x] Provide keyboard-accessible filters and direct routes between the gallery and evidence guide.
-- [x] Verify the deployed Pages site and every image response over HTTP: the index and all eight images returned HTTP 200 on 2026-10-22, and every live image SHA-256 matched `public/evidence.json`, the local copy and the source repository evidence bytes. The stored repository homepage value was read back as `https://ding-ding-projects.github.io/material-browser-evidence/`.
-- [x] Add the exact gallery link to the source README after the gallery is live. Source commit `7035f1c047d2a29eb3081e292a9ef778e2bdc9a4` on `main` carries the link and was read back from the remote reference.
+Historical publication results remain in `docs/archive/2026-10-22/ROADMAP.md`.

@@ -1,0 +1,200 @@
+{
+  "galleryTitle": "Material Browser reviewed interface evidence",
+  "sourceRepository": "https://github.com/Ding-Ding-Projects/material-browser",
+  "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+  "runClosed": true,
+  "captureMethod": "Isolated desktop application with CDP-planned capture. Viewport values are CSS pixels; runtime scale is explicitly forced.",
+  "limitations": [
+    "The 200% scale run was not started.",
+    "The closed 150% run has 42 metadata-valid matrix cells but its images were not individually reviewed for this gallery.",
+    "The initial 125% run had 48 notification-obscured variants and is excluded from this gallery.",
+    "Physical host display scaling and native keyboard delivery were not verified.",
+    "The selected images cover representative workflows, not every product state."
+  ],
+  "images": [
+    {
+      "id": "profiles-workspace",
+      "file": "images/profiles-workspace.png",
+      "title": "populated table and selected profile overview",
+      "surface": "profiles",
+      "language": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Profile table and selected profile overview with synthetic records",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "5a02aa577a49989ef631d8c58a2e3e06ab8a1be8c4571001d008579bcf3e35b9",
+      "capturedAtUtc": "2026-10-22T18:55:08.642Z",
+      "startedAtUtc": "2026-10-22T18:55:08.579Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "settings-normal",
+      "file": "images/settings-normal.png",
+      "title": "compact language controls",
+      "surface": "settings",
+      "language": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 1258,
+        "height": 718,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Compact settings rows in the packaged desktop application",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "8bbc51770204293b5ab1c9f157956babd726c295022ad6a5ed510630dc1cf1b9",
+      "capturedAtUtc": "2026-10-22T18:52:02.19Z",
+      "startedAtUtc": "2026-10-22T18:52:02.144Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "settings-minimum",
+      "file": "images/settings-minimum.png",
+      "title": "collapsed category navigation at minimum viewport",
+      "surface": "settings",
+      "language": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 760,
+        "height": 580,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Compact settings navigation at the minimum supported viewport",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "48e825f489d2c4511e48c5fafca58273be552956c16b88fa256cbb9024b67b34",
+      "capturedAtUtc": "2026-10-22T18:52:33.466Z",
+      "startedAtUtc": "2026-10-22T18:52:33.435Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "super-profiles",
+      "file": "images/super-profiles.png",
+      "title": "synthetic template inventory before selection",
+      "surface": "super-profiles",
+      "language": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Super Profile template inventory with synthetic records",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "260b5064d24679b775f524722af74f9e3cc89304077963ecc4d6f52d6eff227f",
+      "capturedAtUtc": "2026-10-22T18:55:22.969Z",
+      "startedAtUtc": "2026-10-22T18:55:22.931Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "synchronization",
+      "file": "images/synchronization.png",
+      "title": "unconfigured folder and no conflicts",
+      "surface": "synchronization",
+      "language": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Synchronization workspace before a shared folder is configured",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "38dd10e90938a517c6a39496bc848c588f82fc2c020d0906bc34ce10d5f731c9",
+      "capturedAtUtc": "2026-10-22T18:55:29.886Z",
+      "startedAtUtc": "2026-10-22T18:55:29.843Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "setup",
+      "file": "images/setup.png",
+      "title": "first setup step with existing unlocked synthetic vault",
+      "surface": "setup",
+      "language": "en",
+      "theme": "light",
+      "viewport": {
+        "width": 1258,
+        "height": 718,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Setup wizard with an existing unlocked synthetic vault",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "56bd348b441df5e9746be71c82c8be0a37996d3b351d6a5f05a0dcc10a859635",
+      "capturedAtUtc": "2026-10-22T18:54:38.974Z",
+      "startedAtUtc": "2026-10-22T18:54:38.946Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "launch-consent",
+      "file": "images/launch-consent.png",
+      "title": "per-launch standard identity consent",
+      "surface": "profiles",
+      "language": "en",
+      "theme": "dark",
+      "viewport": {
+        "width": 1258,
+        "height": 718,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Explicit standard browser identity consent before profile launch",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "ac807b25eb7fd56da6cb5b620cac6db6d3cae13c9ca57fa99173adb0d1d98daa",
+      "capturedAtUtc": "2026-10-22T18:59:21.169Z",
+      "startedAtUtc": "2026-10-22T18:59:21.132Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    },
+    {
+      "id": "revisions",
+      "file": "images/revisions.png",
+      "title": "real snapshot and restore history after normal browser stop",
+      "surface": "profiles",
+      "language": "en",
+      "theme": "dark",
+      "viewport": {
+        "width": 1258,
+        "height": 718,
+        "scale": 1
+      },
+      "scale": 1,
+      "scaleMethod": "Runtime-forced scale; CSS viewport recorded separately. Physical display scale was not verified.",
+      "alt": "Profile revision history after a real snapshot and restore",
+      "sourceCommit": "baa9512ecbc2727929547059f3b5d95f7cde989f",
+      "imageSha256": "2e03cb0cc8d9d22520fc447037ca34b68458613355c0e2554b71c42a197aa00e",
+      "capturedAtUtc": "2026-10-22T19:00:25.359Z",
+      "startedAtUtc": "2026-10-22T19:00:25.279Z",
+      "packageSha256": "3c9d2f5261258fd2a53e565372bec134164e2e51d41fe73bff09aef3528ea1a1",
+      "rendererSha256": "aed8164704aa3d65c8ecd109619311f6a96706923e7278225ac21cd34471c19d",
+      "hostSha256": "17b7b35986df90915f26fa848ada1816fec0ba47219d22ca5f63ac407c303d1c"
+    }
+  ]
+}
